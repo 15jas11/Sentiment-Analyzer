@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sentiment Analyzer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class = "col-md-4" id = "main-div">
+<h1>Sentiment Analyzer</h1>
+
+<div class = "row" id = "row1">
+<input type = "text" name = "enter" id = "enter">
+</div>
+
+<div class = "row" id  = "row2">
+<button name="submit" id = "submit" onclick="getPhrase()"> Search </button>
+</div>
+
+<div class =  "row" id = "row3" id = "output">
+<div class = "col-md-12">
+<p id = "outputP"> Phrase:</p>
+
+<p id = "outputO"> Polarity:</p>
+
+<p id = "outputA">Accuracy:</p>
+</div>
+</div>
+</div>
+</body>
+<footer id = "footer">
+<p> Created by Jonahtan Stroz and Ben Li. Powered by Keras and Heroku </p>
+</footer>
+
+
+</html>
+<!-- chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security --!>

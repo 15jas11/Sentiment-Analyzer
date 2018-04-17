@@ -1,0 +1,96 @@
+
+
+#row1{
+margin:auto;
+margin-top:1rem;
+}
+
+#row2{
+
+  margin:auto;
+  margin-top:1rem;
+}
+
+#row3{
+  margin:auto;
+  margin-top:1rem;
+
+}
+#main-div{
+  margin:auto;
+  text-align: center;
+  margin-top:12%;
+  border:2px solid white;
+  border-radius: 4px;
+  padding:0px;
+  color:white;
+}
+
+#enter{
+  margin:auto;
+  margin-top: 0.5rem;
+  width: 80%;
+  height:40px;
+  opacity:0.8;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  border-radius: 4px;
+  text-align:center;
+  color:gray;
+}
+#submit{
+  margin:auto;
+  margin-top: 0.5rem;
+  width: 30%;
+  height:50%;
+  background:Transparent;
+  opacity:0.8;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  border:2px solid white;
+  border-radius: 4px;
+  color:white;
+}
+
+#output{
+  margin:auto;
+  margin-top: 2rem;
+  width: 80%;
+  height:50%;
+  border:2px solid white;
+  border-radius: 4px;
+  margin-bottom:1rem;
+  text-align:left;
+  color:white;
+}
+
+#footer{
+
+  width:100%;
+  background-color: #333333;
+  color: whitesmoke;
+  font-size: 13px;
+  margin:auto;
+  margin-top:auto;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding:1rem;
+  float:bottom;
+  position: absolute;
+    bottom: 0;
+}
+body{
+    background: linear-gradient(to bottom right, Dodgerblue , limegreen);
+    bottom: 0;
+   margin: 0;
+   height:auto;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
